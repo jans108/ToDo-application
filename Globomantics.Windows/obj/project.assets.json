@@ -120,6 +120,26 @@
             "related": ".xml"
           }
         }
+      },
+      "Globomantics.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        }
+      },
+      "Globomantics.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Globomantics.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globomantics.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -338,11 +358,23 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "Globomantics.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Globomantics.Domain/Globomantics.Domain.csproj",
+      "msbuildProject": "../Globomantics.Domain/Globomantics.Domain.csproj"
+    },
+    "Globomantics.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Globomantics.Infrastructure/Globomantics.Infrastructure.csproj",
+      "msbuildProject": "../Globomantics.Infrastructure/Globomantics.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "CommunityToolkit.Mvvm >= 8.2.2",
+      "Globomantics.Domain >= 1.0.0",
+      "Globomantics.Infrastructure >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Newtonsoft.Json >= 13.0.3"
@@ -380,7 +412,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Globomantics.Domain.csproj": {
+              "projectPath": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Globomantics.Domain.csproj"
+            },
+            "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj": {
+              "projectPath": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
