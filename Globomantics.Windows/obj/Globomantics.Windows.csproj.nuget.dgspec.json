@@ -97,7 +97,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Globomantics.Domain.csproj": {
+                "projectPath": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Globomantics.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

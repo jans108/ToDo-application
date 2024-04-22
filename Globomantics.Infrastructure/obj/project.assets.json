@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Globomantics.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Globomantics.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Globomantics.Domain/Globomantics.Domain.csproj",
+      "msbuildProject": "../Globomantics.Domain/Globomantics.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Globomantics.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\macie\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Globomantics.Domain.csproj": {
+              "projectPath": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Globomantics.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
