@@ -7,7 +7,7 @@ public abstract record Todo(Guid Id,
                             DateTimeOffset CreatedDate,
                             User CreatedBy,
                             bool IsCompleted = false,
-                            bool IsDetected = false)
+                            bool IsDeleted = false)
 {
     public Todo? Parent { get; init; }
 }
