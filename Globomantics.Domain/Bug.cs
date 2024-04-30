@@ -3,7 +3,7 @@
 public record Bug(string Title,
                   string Description,
                   Severity Severity,
-                  string AffectedVersion,
+                  string? AffectedVersion,
                   int AffectedUsers,
                   User CreatedBy,
                   User? AssignedTo,

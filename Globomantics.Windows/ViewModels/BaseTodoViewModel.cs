@@ -100,6 +100,8 @@ public abstract class BaseTodoViewModel<T> : ObservableObject, ITodoViewModel
             if (Model is not null)
             {
                 Model = Model with { IsDeleted = true };
+
+                ShowAlert?.Invoke($"{nameof(Model)} has been deleted.");
             }
         });
     }

@@ -1,7 +1,7 @@
 ﻿namespace Globomantics.Domain;
 
 public record Feature(string Title,
-                      string Description,
+                      string? Description,
                       string Component,
                       int Priority,
                       User CreatedBy,
