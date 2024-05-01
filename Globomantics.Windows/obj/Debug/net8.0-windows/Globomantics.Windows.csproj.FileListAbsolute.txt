@@ -33,3 +33,7 @@ D:\GitHubProjects\ToDo-application\Globomantics.Windows\obj\Debug\net8.0-windows
 D:\GitHubProjects\ToDo-application\Globomantics.Windows\obj\Debug\net8.0-windows\Globomantics.Windows.pdb
 D:\GitHubProjects\ToDo-application\Globomantics.Windows\obj\Debug\net8.0-windows\Globomantics.Windows.genruntimeconfig.cache
 D:\GitHubProjects\ToDo-application\Globomantics.Windows\obj\Debug\net8.0-windows\ref\Globomantics.Windows.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Windows\bin\Debug\net8.0-windows\Globomantics.Domain.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Windows\bin\Debug\net8.0-windows\Globomantics.Infrastructure.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Windows\bin\Debug\net8.0-windows\Globomantics.Domain.pdb
+D:\GitHubProjects\ToDo-application\Globomantics.Windows\bin\Debug\net8.0-windows\Globomantics.Infrastructure.pdb

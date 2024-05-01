@@ -1,0 +1,12 @@
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\bin\Debug\net8.0\Globomantics.Domain.deps.json
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\bin\Debug\net8.0\Globomantics.Domain.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\bin\Debug\net8.0\Globomantics.Domain.pdb
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.AssemblyInfoInputs.cache
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.AssemblyInfo.cs
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.sourcelink.json
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\refint\Globomantics.Domain.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.pdb
+D:\GitHubProjects\ToDo-application\Globomantics.Domain\obj\Debug\net8.0\ref\Globomantics.Domain.dll

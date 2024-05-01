@@ -1,0 +1,16 @@
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.sourcelink.json
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll

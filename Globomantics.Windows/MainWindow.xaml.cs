@@ -1,4 +1,6 @@
-﻿using Globomantics.Windows.ViewModels;
+﻿using Globomantics.Domain;
+using Globomantics.Windows.Factories;
+using Globomantics.Windows.ViewModels;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -12,13 +14,15 @@ namespace Globomantics.Windows;
 public partial class MainWindow : Window
 {
     private readonly MainViewModel mainViewModel;
+    private readonly TodoViewModelFactory todoViewModelFactory;
 
-    public MainWindow(MainViewModel mainViewModel)
+    public MainWindow(MainViewModel mainViewModel,
+        TodoViewModelFactory todoViewModelFactory)
     { 
         InitializeComponent();
 
         this.mainViewModel = mainViewModel;
-
+        this.todoViewModelFactory = todoViewModelFactory;
         DataContext = mainViewModel;
 
         mainViewModel.ShowSaveFileDialog = () => OpenCreateFileDialog();
@@ -29,6 +33,8 @@ public partial class MainWindow : Window
         mainViewModel.ShowAlert = (message) => {
             MessageBox.Show(message);
         };
+
+        TodoType.ItemsSource = TodoViewModelFactory.TodoTypes;
     }
 
     protected override async void OnActivated(EventArgs e)
@@ -47,9 +53,19 @@ public partial class MainWindow : Window
 
     private UserControl CreateUserControl(string type, 
         // TODO: Change object to domain object type
-        object? model = default)
+        Todo? model = default)
     {
-        throw new NotImplementedException();
+        ITodoViewModel viewModel = todoViewModelFactory.CreateViewModel(
+            type,
+            null,
+            model
+        );
+        viewModel.ShowError = (message) => { MessageBox.Show(message); };
+        viewModel.ShowAlert = (message) => { MessageBox.Show(message); };
+        viewModel.ShowOpenFileDialog = ()
+            => OpenFileDialog(".jpg", "Images (.jpg)|*.jpg", true);
+
+        return TodoUserControlFactory.CreateUserControl(viewModel);
     }
 
     private void Search_OnClick(object sender, RoutedEventArgs e)
@@ -77,7 +93,7 @@ public partial class MainWindow : Window
 
         var control = CreateUserControl(
             list.SelectedValue.GetType().Name,
-            list.SelectedValue);
+            list.SelectedValue as Todo);
 
         CreateTodoControlContainer.Children.Add(control);
 

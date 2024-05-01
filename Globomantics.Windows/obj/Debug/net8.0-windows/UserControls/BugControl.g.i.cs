@@ -61,7 +61,7 @@ namespace Globomantics.Windows.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Globomantics.Windows;V1.0.0.0;component/usercontrols/bugcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Globomantics.Windows;component/usercontrols/bugcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\BugControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
