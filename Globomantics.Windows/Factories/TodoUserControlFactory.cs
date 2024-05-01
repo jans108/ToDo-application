@@ -12,7 +12,7 @@ public class TodoUserControlFactory
         UserControl control = viewModel switch
         {
             BugViewModel => new BugControl(viewModel),
-            FeatureControl => new FeatureControl(viewModel),
+            FeatureViewModel => new FeatureControl(viewModel),
             _ => throw new NotImplementedException()
         };
 
