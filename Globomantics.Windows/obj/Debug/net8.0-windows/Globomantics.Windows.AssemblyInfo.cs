@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Globomantics.Windows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26bbb88d10800de22ca3be382897bfbdcfcc23c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39ba45fc9ce33c20ef7b83278536f3651674e788")]
 [assembly: System.Reflection.AssemblyProductAttribute("Globomantics.Windows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Globomantics.Windows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Globomantics.Domain;
+using System;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -11,12 +12,11 @@ public class TodoTemplateSelector : DataTemplateSelector
 
     public override DataTemplate SelectTemplate(object item, DependencyObject container)
     {
-        throw new NotImplementedException();
-        //return item switch
-        //{
-        //    Bug => BugTemplate,
-        //    Feature => FeatureTemplate,
-        //    _ => throw new NotImplementedException()
-        //};
+        return item switch
+        {
+            Bug => BugTemplate,
+            Feature => FeatureTemplate,
+            _ => throw new NotImplementedException()
+        };
     }
 }
