@@ -3,48 +3,72 @@
   "WorkspaceRootPath": "D:\\GitHubProjects\\ToDo-application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\viewmodels\\basetodoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\viewmodels\\basetodoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\globomanticsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\globomanticsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\datatodomainmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\datatodomainmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\factories\\todoviewmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\factories\\todoviewmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\domaintodatamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\domaintodatamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\models\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\models\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\helpers\\todotemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\helpers\\todotemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\viewmodels\\featureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\viewmodels\\featureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|d:\\githubprojects\\todo-application\\globomantics.domain\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|solutionrelative:globomantics.domain\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\viewmodels\\bugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\viewmodels\\bugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|d:\\githubprojects\\todo-application\\globomantics.domain\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|solutionrelative:globomantics.domain\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\messages\\todosavedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\messages\\todosavedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\factories\\todousercontrolfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\factories\\todousercontrolfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\usercontrols\\bugcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\usercontrols\\bugcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|d:\\githubprojects\\todo-application\\globomantics.windows\\json\\serializationbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA3021-81CF-4304-88F8-6ADB7F06A621}|Globomantics.Windows\\Globomantics.Windows.csproj|solutionrelative:globomantics.windows\\json\\serializationbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|d:\\githubprojects\\todo-application\\globomantics.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|solutionrelative:globomantics.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|d:\\githubprojects\\todo-application\\globomantics.domain\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|solutionrelative:globomantics.domain\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|d:\\githubprojects\\todo-application\\globomantics.domain\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|solutionrelative:globomantics.domain\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|d:\\githubprojects\\todo-application\\globomantics.domain\\severity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC0D679-896F-48EB-AA50-216E23C1E652}|Globomantics.Domain\\Globomantics.Domain.csproj|solutionrelative:globomantics.domain\\severity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|d:\\githubprojects\\todo-application\\globomantics.infrastructure\\data\\repositories\\todoinmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3358CEB3-8698-4DB9-847A-92C34AC18E93}|Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj|solutionrelative:globomantics.infrastructure\\data\\repositories\\todoinmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,152 +78,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobomanticsDbContext.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\GlobomanticsDbContext.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\GlobomanticsDbContext.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\GlobomanticsDbContext.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\GlobomanticsDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:40:13.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DomainToDataMapping.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\DomainToDataMapping.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\DomainToDataMapping.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\DomainToDataMapping.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\DomainToDataMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:21:58.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataToDomainMapping.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\DataToDomainMapping.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\DataToDomainMapping.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\DataToDomainMapping.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\DataToDomainMapping.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIA0wEUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:00:26.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Feature.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Models\\Feature.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Feature.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Models\\Feature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:40:13.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Models\\Image.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Image.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Models\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:38:30.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bug.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Bug.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Models\\Bug.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Bug.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Models\\Bug.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:34:41.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoTask.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\TodoTask.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Models\\TodoTask.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\TodoTask.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Models\\TodoTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:33:13.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Models\\User.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\User.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:31:54.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Models\\Todo.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Models\\Todo.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Models\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:24:14.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SerializationBinder.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Json\\SerializationBinder.cs",
+              "RelativeDocumentMoniker": "Globomantics.Windows\\Json\\SerializationBinder.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Json\\SerializationBinder.cs",
+              "RelativeToolTip": "Globomantics.Windows\\Json\\SerializationBinder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:19:41.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bug.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Bug.cs",
+              "RelativeDocumentMoniker": "Globomantics.Domain\\Bug.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Bug.cs",
+              "RelativeToolTip": "Globomantics.Domain\\Bug.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:18:13.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Feature.cs",
+              "RelativeDocumentMoniker": "Globomantics.Domain\\Feature.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Feature.cs",
+              "RelativeToolTip": "Globomantics.Domain\\Feature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:18:10.356Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TodoTemplateSelector.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Helpers\\TodoTemplateSelector.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\Helpers\\TodoTemplateSelector.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Helpers\\TodoTemplateSelector.cs",
-              "RelativeToolTip": "Globomantics.Windows\\Helpers\\TodoTemplateSelector.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:02:51.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "Globomantics.Windows\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAA8wFQAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:12:34.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseTodoViewModel.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\BaseTodoViewModel.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\ViewModels\\BaseTodoViewModel.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\BaseTodoViewModel.cs",
-              "RelativeToolTip": "Globomantics.Windows\\ViewModels\\BaseTodoViewModel.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAUwFkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:11:42.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FeatureViewModel.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\FeatureViewModel.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\ViewModels\\FeatureViewModel.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\FeatureViewModel.cs",
-              "RelativeToolTip": "Globomantics.Windows\\ViewModels\\FeatureViewModel.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:11:18.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BugViewModel.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\BugViewModel.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\ViewModels\\BugViewModel.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\ViewModels\\BugViewModel.cs",
-              "RelativeToolTip": "Globomantics.Windows\\ViewModels\\BugViewModel.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAswKgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:08:50.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TodoSavedMessage.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Messages\\TodoSavedMessage.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\Messages\\TodoSavedMessage.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Messages\\TodoSavedMessage.cs",
-              "RelativeToolTip": "Globomantics.Windows\\Messages\\TodoSavedMessage.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:06:25.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TodoUserControlFactory.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Factories\\TodoUserControlFactory.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\Factories\\TodoUserControlFactory.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Factories\\TodoUserControlFactory.cs",
-              "RelativeToolTip": "Globomantics.Windows\\Factories\\TodoUserControlFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T12:07:46.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoViewModelFactory.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Factories\\TodoViewModelFactory.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\Factories\\TodoViewModelFactory.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\Factories\\TodoViewModelFactory.cs",
-              "RelativeToolTip": "Globomantics.Windows\\Factories\\TodoViewModelFactory.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAQwCwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:44:19.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Globomantics.Windows\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowEQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:42:04.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BugControl.xaml.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\UserControls\\BugControl.xaml.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\UserControls\\BugControl.xaml.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\UserControls\\BugControl.xaml.cs",
-              "RelativeToolTip": "Globomantics.Windows\\UserControls\\BugControl.xaml.cs",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\User.cs",
+              "RelativeDocumentMoniker": "Globomantics.Domain\\User.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\User.cs",
+              "RelativeToolTip": "Globomantics.Domain\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:41:42.351Z"
+              "WhenOpened": "2024-05-06T18:18:04.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Globomantics.Windows\\App.xaml.cs",
-              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Windows\\App.xaml.cs",
-              "RelativeToolTip": "Globomantics.Windows\\App.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAQwB0AAAA/AAAA",
+              "DocumentIndex": 13,
+              "Title": "TodoTask.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\TodoTask.cs",
+              "RelativeDocumentMoniker": "Globomantics.Domain\\TodoTask.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\TodoTask.cs",
+              "RelativeToolTip": "Globomantics.Domain\\TodoTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:36:31.898Z"
+              "WhenOpened": "2024-05-06T18:18:02.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Todo.cs",
+              "RelativeDocumentMoniker": "Globomantics.Domain\\Todo.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Todo.cs",
+              "RelativeToolTip": "Globomantics.Domain\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:17:54.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Severity.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Severity.cs",
+              "RelativeDocumentMoniker": "Globomantics.Domain\\Severity.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Domain\\Severity.cs",
+              "RelativeToolTip": "Globomantics.Domain\\Severity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:17:50.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TodoInMemoryRepository.cs",
+              "DocumentMoniker": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Repositories\\TodoInMemoryRepository.cs",
+              "RelativeDocumentMoniker": "Globomantics.Infrastructure\\Data\\Repositories\\TodoInMemoryRepository.cs",
+              "ToolTip": "D:\\GitHubProjects\\ToDo-application\\Globomantics.Infrastructure\\Data\\Repositories\\TodoInMemoryRepository.cs",
+              "RelativeToolTip": "Globomantics.Infrastructure\\Data\\Repositories\\TodoInMemoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:17:39.554Z",
+              "EditorCaption": ""
             }
           ]
         }
