@@ -61,7 +61,7 @@ namespace Globomantics.Windows.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Globomantics.Windows;V1.0.0.0;component/usercontrols/featurecontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Globomantics.Windows;component/usercontrols/featurecontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\FeatureControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

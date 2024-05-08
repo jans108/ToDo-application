@@ -1,10 +1,13 @@
 ﻿using Globomantics.Domain;
+using Globomantics.Infrastructure.Data;
 using Globomantics.Infrastructure.Data.Repositories;
 using Globomantics.Windows.Factories;
 using Globomantics.Windows.ViewModels;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Linq;
 using System.Windows;
 
 namespace Globomantics.Windows;
@@ -23,6 +26,8 @@ public partial class App : Application
 
         var serviceCollection = new ServiceCollection();
 
+        serviceCollection.AddDbContext<GlobomanticsDbContext>(ServiceLifetime.Scoped);
+
         serviceCollection.AddSingleton<IRepository<Bug>, TodoInMemoryRepository<Bug>>();
         serviceCollection.AddSingleton<IRepository<Feature>, TodoInMemoryRepository<Feature>>();
         serviceCollection.AddSingleton<IRepository<TodoTask>, TodoInMemoryRepository<TodoTask>>();
@@ -37,8 +42,23 @@ public partial class App : Application
         ServiceProvider = serviceCollection.BuildServiceProvider();
     }
 
-    private void OnStartup(object sender, StartupEventArgs e)
+    private async void OnStartup(object sender, StartupEventArgs e)
     {
+        var context = ServiceProvider.GetRequiredService<GlobomanticsDbContext>();
+
+        await context.Database.MigrateAsync();
+
+        var user = context.Users.FirstOrDefault();
+
+        if (user is null)
+        {
+            user = new Infrastructure.Data.Models.User { Name = "Filip" };
+            context.Users.Add(user);
+            context.SaveChanges();
+        }
+
+        App.CurrentUser = DataToDomainMapping.MapUser(user);
+
         var mainWindow = ServiceProvider.GetRequiredService<MainWindow>();
 
         mainWindow?.Show();

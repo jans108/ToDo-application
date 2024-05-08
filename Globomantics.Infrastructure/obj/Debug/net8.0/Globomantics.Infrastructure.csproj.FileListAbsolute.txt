@@ -14,3 +14,5 @@ D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\
 D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
 D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
 D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+D:\GitHubProjects\ToDo-application\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache

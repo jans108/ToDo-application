@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Globomantics.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e207ab069924135a75f97421b7216ead7b11ca59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ce003d5cdc25f1254c1c7441be3fbb5ee3dfc83")]
 [assembly: System.Reflection.AssemblyProductAttribute("Globomantics.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Globomantics.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
