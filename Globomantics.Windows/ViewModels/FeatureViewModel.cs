@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Messaging;
 using Globomantics.Domain;
 using Globomantics.Infrastructure.Data.Repositories;
 using Globomantics.Windows.Messages;
+using System;
 using System.Threading.Tasks;
 
 namespace Globomantics.Windows.ViewModels;
@@ -59,10 +60,16 @@ public class FeatureViewModel : BaseTodoViewModel<Feature>
             };
         }
 
-        await repository.AddAsync(Model);
-        await repository.SaveChangesAsync();
-
-        WeakReferenceMessenger.Default.Send<TodoSavedMessage>(new(Model));
+        try
+        {
+            await repository.AddAsync(Model);
+            await repository.SaveChangesAsync();
+            WeakReferenceMessenger.Default.Send<TodoSavedMessage>(new(Model));
+        }
+        catch(Exception ex) 
+        {
+            ShowError?.Invoke("Could not save to the database");
+        }
 
     }
 
