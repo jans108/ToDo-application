@@ -50,7 +50,7 @@
             <MenuItem Header="_File" FontSize="20">
                 <MenuItem x:Name="Close" FontSize="20" Header="_Close" Click="Close_OnClick"/>
             </MenuItem>
-            <MenuItem Header="_Data" FontSize="20">
+            <MenuItem Header="_Data" FontSize="20" Click="MenuItem_Click">
                 <MenuItem x:Name="Export" FontSize="20" Header="_Export" Command="{Binding ExportCommand}"/>
                 <MenuItem x:Name="Import" FontSize="20" Header="_Import" Command="{Binding ImportCommand}"/>
             </MenuItem>
