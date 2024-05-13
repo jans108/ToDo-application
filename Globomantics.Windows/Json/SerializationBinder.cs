@@ -23,6 +23,7 @@ public class SerializationBinder : ISerializationBinder
         .ToList();
 
         AllowedTypes.Add("System.Byte[][]");
+        AllowedTypes.Add(typeof(TodoTask[]).FullName ?? "");
     }
 
     public void BindToName(Type serializedType,

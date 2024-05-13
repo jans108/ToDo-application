@@ -34,9 +34,9 @@ public class DataToDomainMapping
             bug.AffectedVersion,
             bug.AffectedUsers,
             MapUser(bug.CreatedBy),
-            MapUser(bug.AssigedTo),
+            MapUser(bug.AssignedTo),
             bug?.Images?.Select(image => Convert.FromBase64String(image.ImageData)).ToArray()
-            ?? Enumerable.Empty<byte[]>()
+            ?? Enumerable.Empty<byte[]>().ToArray()
         )
         {
             Id = bug.Id,

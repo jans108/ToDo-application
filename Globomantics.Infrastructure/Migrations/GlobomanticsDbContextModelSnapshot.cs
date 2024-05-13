@@ -43,7 +43,7 @@ namespace Globomantics.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("CreatedById")
+                    b.Property<Guid?>("CreatedById")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTimeOffset>("CreatedDate")
@@ -115,7 +115,7 @@ namespace Globomantics.Infrastructure.Migrations
                     b.Property<string>("AffectedVersion")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid?>("AssigedToId")
+                    b.Property<Guid?>("AssignedToId")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
@@ -125,10 +125,13 @@ namespace Globomantics.Infrastructure.Migrations
                     b.Property<int>("Severity")
                         .HasColumnType("INTEGER");
 
-                    b.HasIndex("AssigedToId");
+                    b.HasIndex("AssignedToId");
 
                     b.ToTable("Todo", t =>
                         {
+                            t.Property("AssignedToId")
+                                .HasColumnName("Bug_AssignedToId");
+
                             t.Property("Description")
                                 .HasColumnName("Bug_Description");
                         });
@@ -140,7 +143,7 @@ namespace Globomantics.Infrastructure.Migrations
                 {
                     b.HasBaseType("Globomantics.Infrastructure.Data.Models.TodoTask");
 
-                    b.Property<Guid>("AssignedToId")
+                    b.Property<Guid?>("AssignedToId")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Component")
@@ -169,9 +172,7 @@ namespace Globomantics.Infrastructure.Migrations
                 {
                     b.HasOne("Globomantics.Infrastructure.Data.Models.User", "CreatedBy")
                         .WithMany()
-                        .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CreatedById");
 
                     b.HasOne("Globomantics.Infrastructure.Data.Models.Todo", "Parent")
                         .WithMany()
@@ -184,20 +185,18 @@ namespace Globomantics.Infrastructure.Migrations
 
             modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Bug", b =>
                 {
-                    b.HasOne("Globomantics.Infrastructure.Data.Models.User", "AssigedTo")
+                    b.HasOne("Globomantics.Infrastructure.Data.Models.User", "AssignedTo")
                         .WithMany()
-                        .HasForeignKey("AssigedToId");
+                        .HasForeignKey("AssignedToId");
 
-                    b.Navigation("AssigedTo");
+                    b.Navigation("AssignedTo");
                 });
 
             modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Feature", b =>
                 {
                     b.HasOne("Globomantics.Infrastructure.Data.Models.User", "AssignedTo")
                         .WithMany()
-                        .HasForeignKey("AssignedToId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AssignedToId");
 
                     b.Navigation("AssignedTo");
                 });

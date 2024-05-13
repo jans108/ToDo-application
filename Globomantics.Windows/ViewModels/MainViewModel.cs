@@ -136,7 +136,52 @@ public class MainViewModel : ObservableObject,
 
     private async Task ImportAsync()
     {
-        throw new NotImplementedException();
+        var filenames = ShowOpenFileDialog?.Invoke();
+
+        if (filenames is null || !filenames.Any())
+        {
+            return; 
+        }
+        var filename = filenames.First();
+
+        if(string.IsNullOrWhiteSpace(filename))
+        {
+            ShowError?.Invoke("No filename specified");
+        }
+
+        IsLoading = true;
+
+        var json = await File.ReadAllTextAsync(filename);
+
+        var items = JsonConvert.DeserializeObject<IEnumerable<TodoTask>>(json, new JsonSerializerSettings
+        {
+            TypeNameHandling = TypeNameHandling.Auto,
+            SerializationBinder = new SerializationBinder()
+        }
+      );
+
+        if (items is null)
+        {
+            return;
+        }
+
+        foreach(var item in items)
+        {
+            await todoRepository.AddAsync(item);
+
+            if(item.IsCompleted)
+            {
+                Completed.Add(item);
+            }
+            else if(!item.IsDeleted)
+            {
+                Unfinished.Add(item);
+            }
+        }
+
+        await todoRepository.SaveChangesAsync();
+
+        IsLoading = false;
     }
 
     private void ReplaceOrAdd(ObservableCollection<Todo> collection, Todo item)
